@@ -1,0 +1,27 @@
+sudo apt-get remove --purge php5*
+sudo apt-get autoremove
+
+Agora o mesmo com versões do PHP 7.
+
+sudo apt-get remove --purge php7*
+sudo apt-get autoremove
+
+Agora é a vez do Apache.
+
+sudo apt-get remove --purge apache*
+sudo apt-get autoremove
+
+Com o MySQL.
+
+sudo apt-get remove --purge mysql*
+sudo apt-get autoremove
+sudo rm -rf /var/lib/mysql
+sudo rm -rf /etc/mysql
+
+E pra fechar, com o PHPMyAdmin.
+
+sudo apt-get remove --purge phpmyadmin*
+sudo apt-get autoremove
+sudo apt-get autoclean
+
+Pronto! É como começar a desenhar numa folha em branco…
